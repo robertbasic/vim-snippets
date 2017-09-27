@@ -1,0 +1,23 @@
+snippet ds "Custom / Declare strict types"
+declare(strict_types=1);
+endsnippet
+
+snippet ns "Custom / Insert namespace"
+namespace `!v sniphpets#resolve_namespace()`;
+endsnippet
+
+snippet var "Custom / Class property"
+/**
+* @var $1
+*/
+protected $2;
+endsnippet
+
+snippet test "Custom / PHPUnit test method"
+/**
+* @test
+*/
+public function $1()
+{
+}
+endsnippet
